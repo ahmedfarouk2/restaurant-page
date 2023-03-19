@@ -1,32 +1,61 @@
 @font-face {
-  font-family: projectFont;
+  font-family: titleFont;
   src: url('../assets/Authentic\ Ratatouille_PersonalUseOnly.ttf');
+}
+
+@font-face {
+  font-family: tabsFont;
+  src: url('../assets/Queensides-3z7Ey.ttf');
 }
 
 body {
   background-color: salmon;
   margin: 0;
   background-image: url('../assets/background-image.jpg');
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #content {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(4, 1fr);
+  place-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
 }
 
 .header {
   grid-column: 1 / -1;
   text-align: center;
   color: whitesmoke;
-  font-family: projectFont;
   font-size: 6rem;
   padding: 1rem;
+  font-family: titleFont;
 }
 
 .tab {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: sandybrown;
+  cursor: pointer;
+  font-family: tabsFont;
+  font-weight: bold;
+}
+
+.tab:hover {
+  transform: scale(1.2);
+}
+
+.mainContent {
+  grid-row: 3 / 6;
+  grid-column: 2 / 3;
+  font-size: 30px;
+  width: 900px;
+  line-height: 40px;
+  font-style: italic;
+  background-color: rgba(0,0,0,0.2);
+  color: bisque;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
