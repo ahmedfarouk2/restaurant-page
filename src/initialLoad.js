@@ -11,6 +11,7 @@ function headerInitialLoad() {
 function menuTabInitialLoad() {
   const mainDiv = document.querySelector('#content');
   const div = document.createElement('div');
+  div.setAttribute('id', 'menuTab');
   div.innerText = 'Menu';
   div.classList.add('tab');
   mainDiv.append(div);
@@ -19,14 +20,16 @@ function menuTabInitialLoad() {
 function homeTabInitialLoad() {
   const mainDiv = document.querySelector('#content');
   const div = document.createElement('div');
+  div.setAttribute('id', 'homeTab');
   div.innerText = 'Home';
   div.classList.add('tab');
   mainDiv.append(div);
 }
 
-function aboutTabInitialLoad() {
+function contactUsTabInitialLoad() {
   const mainDiv = document.querySelector('#content');
   const div = document.createElement('div');
+  div.setAttribute('id', 'contactUs')
   div.innerText = 'Contact us';
   div.classList.add('tab');
   mainDiv.append(div);
@@ -45,6 +48,6 @@ export default function initialLoad() {
   headerInitialLoad();
   menuTabInitialLoad();
   homeTabInitialLoad();
-  aboutTabInitialLoad();
+  contactUsTabInitialLoad();
   mainContentInitialLoad();
 }
