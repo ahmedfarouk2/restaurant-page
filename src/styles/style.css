@@ -46,11 +46,18 @@ body {
   width: 900px;
   line-height: 40px;
   font-style: italic;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.4);
   color: bisque;
   padding: 15px;
   border-radius: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.none {
+  display: none;
+}
+
+li {
+  margin: 30px;
+}
 
