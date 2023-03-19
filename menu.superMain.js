@@ -1,2 +1,2 @@
-(()=>{const e=document.querySelector("#contactUs"),n=document.querySelector(".mainContent");e.addEventListener("click",(()=>{n.innerHTML="<ul><li>oza</ul>"}))})();
+(()=>{const e=document.querySelector("#menuTab"),t=document.querySelector(".mainContent");e.addEventListener("click",(()=>{t.innerHTML="<ul><li>The Famous Ratatouille (OF COURSE DUH!)<li>Mac & Cheese (The French Version)<li>Koshary (National Egyptian Dish) <sup>Don't give me that look just look at the louvre it's full of Egyptian artifacts</sup></ul>"}))})();
 //# sourceMappingURL=menu.superMain.js.map
