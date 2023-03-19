@@ -1,0 +1,2 @@
+(()=>{const e=document.querySelector("#contactUs"),t=document.querySelector(".mainContent");e.addEventListener("click",(()=>{t.innerText="Well.. Contact us..? Hmmm I'm sure we're in Paris but where exactly I really don't think they mentioned in the movie, Sorry."}))})();
+//# sourceMappingURL=contactUs.superMain.js.map
