@@ -5,12 +5,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    superMain: path.resolve(__dirname, 'src'),
+    index: './src/index.js',
+    contactUs: './src/contactUs.js',
+    home: './src/home.js',
+    menu: './src/menu.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    filename: '[name].js',
+    filename: '[name].superMain.js',
   },
   devtool: 'source-map',
   devServer: {
