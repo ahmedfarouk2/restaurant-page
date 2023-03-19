@@ -1,2 +1,0 @@
-(()=>{const e=document.querySelector("#contactUs"),n=document.querySelector(".mainContent");e.addEventListener("click",(()=>{n.innerHTML="<ul><li>oza</ul>"}))})();
-//# sourceMappingURL=menu.superMain.js.map
