@@ -1,10 +1,6 @@
-@font-face {
-  font-family: titleFont;
-  src: url('../assets/Authentic\ Ratatouille_PersonalUseOnly.ttf');
-}
 
 @font-face {
-  font-family: tabsFont;
+  font-family: projectFont;
   src: url('../assets/Queensides-3z7Ey.ttf');
 }
 
@@ -13,6 +9,7 @@ body {
   margin: 0;
   background-image: url('../assets/background-image.jpg');
   overflow: hidden;
+  font-family: projectFont;
 }
 
 #content {
@@ -27,16 +24,14 @@ body {
   grid-column: 1 / -1;
   text-align: center;
   color: whitesmoke;
-  font-size: 6rem;
+  font-size: 5rem;
   padding: 1rem;
-  font-family: titleFont;
 }
 
 .tab {
   font-size: 2.5rem;
   color: sandybrown;
   cursor: pointer;
-  font-family: tabsFont;
   font-weight: bold;
 }
 
